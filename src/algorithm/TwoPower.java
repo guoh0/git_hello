@@ -1,3 +1,5 @@
+package algorithm;
+
 /**
  如何高效判断一个数是否是2的n次幂
  */

@@ -1,3 +1,7 @@
+package algorithm;
+
+import java.util.List;
+import java.util.Objects;
 import java.util.Stack;
 
 /**
@@ -82,7 +86,9 @@ public class LinkReverse {
 
 
     public static void main(String[] args) {
-        Node head = new Node();
+        List list = null;
+        Objects.requireNonNull(list);
+        /*Node head = new Node();
         head.data = 1;
         head.next = new Node();
         head.next.data = 2;
@@ -93,7 +99,7 @@ public class LinkReverse {
         head.next.next.next.next = new Node();
         head.next.next.next.next.data = 5;
         printLinkReverse(head);
-        printLinkReverseOrStack(head);
+        printLinkReverseOrStack(head);*/
     }
 
 }
